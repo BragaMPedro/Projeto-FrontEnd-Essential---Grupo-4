@@ -12,9 +12,17 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    background-color: var(--cor-background);
 }
 
-nav.navbar.navbar-dark{
+a{
+    color: currentColor;
+    text-decoration: none;
+    --bs-link-hover-color: var(--cor-brazaVerde);
+}
+
+nav.navbar.navbar-dark, .navbar-dark {
     background-color: var(--cor-brazAzul) !important;
     --bs-navbar-color: var(--cor-brazAmarelo);
+    --bs-navbar-hover-color: var(--cor-brazaVerde);
 }
