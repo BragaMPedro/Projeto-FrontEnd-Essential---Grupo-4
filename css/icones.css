@@ -1,0 +1,50 @@
+.iconContainer{
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconesRedeSocial{
+    width: 1.2em;
+    filter: invert(1);
+    float: left;  
+}
+
+.bi {
+    vertical-align: -.125em;
+}
+
+.instagram-background{
+    background-color: #fb3283;
+}
+
+.instagram-fill{
+    fill: #fb3283;
+}
+
+.facebook-background{
+    background-color: #2374e1;
+}
+
+.facebook-fill{
+    fill: #2374e1;
+}
+
+.twitter-background{
+    background-color: #2ca2ea;
+}
+
+.twitter-fill{
+    fill: #2ca2ea;
+}
+
+.gmail-background{
+    background-color: #ea4335;
+}
+
+.gmail-fill{
+    fill: #ea4335;
+}

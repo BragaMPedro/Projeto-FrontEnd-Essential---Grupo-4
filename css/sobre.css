@@ -1,0 +1,39 @@
+body{
+    background-color: var(--cor-background);
+
+}
+
+img.sel-sobre{
+    position: absolute;
+    right: 0px;
+    top: 115px;
+    margin-top: 0px;
+    border: 1px solid darkgreen;
+    width: 950px;
+    height: 600px;
+    opacity: 0.75;
+
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.titulo{
+    color:var(--cor-brazAzul);
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid darkgreen;
+   
+
+}
+
+.sub-titulo{
+    color: darkgreen;
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+}
+
