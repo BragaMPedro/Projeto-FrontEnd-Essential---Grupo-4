@@ -1,0 +1,23 @@
+.footer-principal{
+    background-color: var(--cor-brazAzul);
+    padding: 10px;
+}
+
+.footer-redesSociais{
+    list-style: none;
+}
+
+.footer-redesSociais > li{
+
+}
+
+.footer-redesSociais > a{
+    display: inline-flex;
+}
+
+.footer-itensSociais{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    float: right;
+}
