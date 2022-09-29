@@ -9,14 +9,15 @@ img.sel-sobre{
     top: 115px;
     margin-top: 0px;
     border: 1px solid darkgreen;
-    width: 950px;
-    height: 600px;
+    width: 61%;
+    height: 77%;
     opacity: 0.75;
 
 }
 
 .container{
-    margin-left: 20px;
+    margin-left: 1%;
+
 }
 
 .titulo{
@@ -34,6 +35,6 @@ img.sel-sobre{
 
 p{
     text-align: justify;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
