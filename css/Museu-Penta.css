@@ -7,10 +7,8 @@ body{
     background-color: #E9E9E9;
 }
 .Titulo{
-    color:var(--cor-brazaVerde);
-    margin-top: 5px;
+    color: darkgreen;
     text-align: center;
-    border: 1px solid darkgreen;
    
 
 }
