@@ -6,7 +6,11 @@
     --cor-brazaVerde: #3DBA50;
     --cor-background: #E9E9E9;
 }
-
+header{
+    position: sticky;    
+    top: 0;
+    z-index: 9999;
+}
 body{
     margin: 0;
     padding: 0;
@@ -20,9 +24,19 @@ a{
     text-decoration: none;
     --bs-link-hover-color: var(--cor-brazaVerde);
 }
-
+.nav-link:hover{
+    background-color: #3DBA50;
+    color: white;
+    border-left: 8px solid blue;
+    text-decoration: none;
+    font: 18px;
+    
+}
 nav.navbar.navbar-dark, .navbar-dark {
     background-color: var(--cor-brazAzul) !important;
     --bs-navbar-color: var(--cor-brazAmarelo);
     --bs-navbar-hover-color: var(--cor-brazaVerde);
+}
+.nav-item1 a{
+    float: right;
 }
