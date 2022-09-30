@@ -1,0 +1,39 @@
+/* .Titulo{
+    text-align: center;
+    color: #3DBA50;
+    
+} */
+body{
+    background-color: #E9E9E9;
+}
+.Titulo{
+    color:var(--cor-brazaVerde);
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid darkgreen;
+   
+
+}
+.Subtitulo{
+    color:darkgreen;
+    margin-top: 5px;
+    text-align: center;
+    background-color: ;
+}
+
+img.foto{
+    position:relative;
+    margin-left: 50px;
+    margin-right: auto;
+    margin:10px;
+    border: 3px solid var(--cor-brazaVerde);
+}
+h2{
+    col;
+}
+
+p{
+    text-align:justify;
+    font-size: 16px;
+}
+
