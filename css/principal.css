@@ -6,8 +6,18 @@
 
 .ad-principal {
   width: 100%;
-  height: 200px;
-  background-color: green;
+  height: auto;
+  background-color: #fff;
+}
+
+.ad-principal > a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ad-principal__imagem{
+  
 }
 
 .centro {
