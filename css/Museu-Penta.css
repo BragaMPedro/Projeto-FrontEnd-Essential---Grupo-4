@@ -22,17 +22,17 @@ body{
 }
 
 img.foto{
-    position:relative;
-    margin-left: 50px;
-    margin-right: auto;
-    margin:10px;
-    border: 3px solid var(--cor-brazaVerde);
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border: 3px solid var(--cor-brazAmarelo);
 }
 h2{
-    col;
 }
 
 p{
+    padding-right: 100px;
+    padding-left: 100px;
     text-align:justify;
     font-size: 16px;
 }
