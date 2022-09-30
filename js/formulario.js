@@ -3,5 +3,5 @@ let formulario ={
 }
 
 formulario.btnEnviar.addEventListener('click', () =>{
-    alert("Obrigado por se increver no Brazas")
+    alert("Obrigado por se inscrever no Brazas")
 })
