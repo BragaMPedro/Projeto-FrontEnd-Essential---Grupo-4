@@ -9,14 +9,18 @@ body{
 .Titulo{
     color: darkgreen;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
    
 
 }
 .Subtitulo{
-    color:darkgreen;
+    color: darkgreen;
     margin-top: 5px;
     text-align: center;
     background-color: ;
+    border: 2px solid darkgreen;
+    border
 }
 
 img.foto{
@@ -33,5 +37,9 @@ p{
     padding-left: 100px;
     text-align:justify;
     font-size: 16px;
+    background-color: #E9E9E9;
 }
-
+.mudanca{
+    color: darkgreen;
+    margin-top: 5px;
+    text-align: center;
