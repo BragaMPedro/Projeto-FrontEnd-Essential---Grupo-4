@@ -3,37 +3,28 @@ body{
 
 }
 
-img.sel-sobre{
-    position: absolute;
-    right: 0px;
-    top: 115px;
-    margin-top: 0px;
-    border: 1px solid darkgreen;
-    width: 950px;
-    height: 600px;
-    opacity: 0.75;
-
-}
-
-.container{
-    margin-left: 20px;
-}
-
 .titulo{
     color:var(--cor-brazAzul);
-    margin-top: 5px;
+    margin-top: 0.2%;
     text-align: center;
     border: 1px solid darkgreen;
-   
-
 }
 
-.sub-titulo{
-    color: darkgreen;
-}
-
-p{
+.row{
+    text-align: center;
+    margin-left: 0%;
     text-align: justify;
-    font-size: 14px;
 }
+
+img{
+    
+    border:1px solid darkgreen ;
+    right: 30px;
+    margin-top: auto;
+    width: auto;
+    height: 60%;
+}
+
+
+
 
