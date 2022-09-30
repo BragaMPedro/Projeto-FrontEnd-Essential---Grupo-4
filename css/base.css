@@ -24,7 +24,7 @@ a{
     text-decoration: none;
     --bs-link-hover-color: var(--cor-brazaVerde);
 }
-.navbar-collapse li:hover a, li:hover span{
+.nav-link:hover{
     background-color: #3DBA50;
     color: white;
     border-left: 8px solid blue;
