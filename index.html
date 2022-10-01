@@ -1,137 +1,431 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/icon/brasil.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/icon/brasil.ico"
+      type="image/x-icon"
+    />
     <title>Blog do Brazas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="./css/icones.css">
-    <link rel="stylesheet" href="./css/footer.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="./css/icones.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/principal.css" />
+  </head>
 
+  <body>
+    <!-- NavBar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./assets/icon/" alt="Ícone Brazas link home">
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+              <img class="logo" src="./assets/img/LogoFinalTrabalho.png" alt="Ícone Brazas link home">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                  
+                      <li class="nav-item">
+                      <a class="nav-link" href="./sobre.html">Quem Somos</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="./copa2022.html">Copa 2022</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Museu
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="Museu-Penta.html">Penta</a></li>
+                          <li><a class="dropdown-item" href="idolos.html">Ídolos</a></li>
+                      </ul>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./formulario.html">Inscreva-se</a></li>
+                  </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+    <!-- Corpo -->
+    <div class="container">
+      <!-- Carrossel -->
+      <div class="col-sm-12">
+        <div>
+          <div
+            id="carrossel-Principal"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carrossel-Principal"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carrossel-Principal"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carrossel-Principal"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="./copa2022.html">
+                  <img
+                    src="./assets/img/index/Carrossel1.jpg"
+                    class="carrossel-imagem d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Acompanhe a Copa do Mundo no Brazas!</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a
+                  href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2022/09/30/goleadas-e-rivais-duvidosos-os-ultimos-jogos-do-brasil-antes-das-copas.htm"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/img/index/carrossel2.jpg"
+                    class="carrossel-imagem d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Goleadas e rivais duvidosos...</h3>
+                    <p>os últimos jogos do Brasil antes das Copas</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a
+                  href="https://ge.globo.com/futebol/copa-do-mundo/noticia/2022/09/29/comite-organizador-da-copa-no-catar-reage-a-protesto-de-fornecedora-da-dinamarca.ghtml"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/img/index/carrossel3.jpg"
+                    class="carrossel-imagem d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>
+                      Comitê Organizador da Copa reage a protesto da Dinamarca
+                    </h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carrossel-Principal"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
             </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carrossel-Principal"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </div>
+      </div>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                    
-                        <li class="nav-item">
-                        <a class="nav-link" href="./sobre.html">Quem Somos</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./formulario.html">Inscreva-se</a>
-                    </li>
+      <!-- Ad -->
+      <div class="col-sm-12">
+        <div class="ad-principal">
+          <a
+            href="https://jimbeambrasil.com.br/?utm_source=Gshow-diaria&utm_medium=cpc&utm_campaign=jim-beam-diaria&utm_id=JIM-BEAM_m%C3%AAs_bourbon"
+            target="_blank"
+          >
+            <img
+              class="ad-principal__imagem"
+              src="./assets/img/index/ads.png"
+              alt="link propaganda Bourbon"
+            />
+          </a>
+        </div>
+      </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./copa2022.html">Copa 2022</a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Museu
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Museu-Penta.html">Penta</a></li>
-                        <li><a class="dropdown-item" href="idolos.html">Ídolos</a></li>
-                        </ul>
-                    </li>
-                    </ul>
+      <!-- Main Section -->
+      <main class="centro">
+        <div class="col-sm-6">
+          <div class="principal">
+            <section class="principal-destaque">
+              <div class="card mb-3">
+                <img
+                  src="./assets/img/index/Qatar.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">QATAR</h5>
+                  <p class="card-text">
+                    Uma vez que o Qatar é o país da Copa deste ano, preparamos
+                    esse artigo com tudo que você precisa saber para aproveitar
+                    o país de destino da Copa do Mundo.
+                  </p>
+                  <a
+                    href="https://primeirahora.com.br/qatar-tudo-o-que-voce-precisa-saber-para-aproveitar-o-pais-de-destino-da-copa-do-mundo-2022/"
+                    class="btn btn-primary"
+                    >Saiba mais</a
+                  >
                 </div>
+              </div>
+            </section>
+
+            <section class="principal-inscrever">
+              <div class="card" style="width: auto">
+                <div class="card-body">
+                  <h5 class="card-title">INSCREVA-SE</h5>
+                  <p class="card-text">
+                    Receba notificações no seu email com as notícias mais
+                    recentes da Copa 2022 e do nosso Braza!
+                  </p>
+                  <a href="./formulario.html" class="btn btn-primary"
+                    >Cadastre-se aqui</a
+                  >
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <aside class="principal-lateral">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="#">
+                    <img
+                      src="./assets/img/index/Grupos.jpeg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                      <a class="lateral-cardLink" href="#"> Saiba mais...</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
 
-    <div class="container-fluid">
-        <footer class="footer-principal row">
-            <div class="footer-left col-sm-6">
-                <ul class="footer__lista text-start">
-                    <li>
-                        <a href="index.html">Home</a>  
-                    </li>
-
-                    <li>
-                        <a href="sobre.html">Quem Somos</a>  
-                    </li>
-
-                    <li>
-                        <a href="formularop.html">Inscreva-se</a>  
-                    </li>
-
-                    <li>
-                        <a href="copa2022.html">Copa 2022</a>  
-                    </li>
-
-                    <li>
-                        <a href="penta.html">Penta</a>  
-                    </li>
-
-                    <li>
-                        <a href="idolos.html">Jogadores</a>  
-                    </li>       
-                </ul>
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./assets/img/index/Grupos.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                      <a class="lateral-cardLink" href="#"> Saiba mais...</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="footer-right col-sm-6">
-                <ul class="footer-redesSociais">
-                    <li>
-                        <a href="instagram.com/braza">
-                            <div class="footer-itensSociais">
-                                <div class="iconContainer instagram-background">
-                                    <img class="iconesRedeSocial" src="./assets/icon/Instagram.png" alt="Ícone Link Instagram">
-                                </div>
-                                <span class="footer-texto">@BrazaBlog_BR</span>
-                            </div>
-                        </a>
-                    </li>
 
-                    <li>
-                        <a href="facebook.com/BrazaBlogBR">
-                            <div class="footer-itensSociais">
-                                <div class="iconContainer facebook-background">
-                                    <img class="iconesRedeSocial" src="./assets/icon/Facebook.png" alt="Ícone Link Facebook">
-                                </div>
-                                <span class="footer-texto">Braza Blog BR</span> 
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="twitter.com/BRbrazaBlog">
-                            <div class="footer-itensSociais">
-                                <div class="iconContainer twitter-background">
-                                    <img class="iconesRedeSocial" src="./assets/icon/Twitter.png" alt="Ícone Link Twitter">
-                                </div>
-                                <span class="footer-texto">Braza BR Blog da Depressão</span> 
-                            </div>
-                        
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:brazablogbr@gmail.com">
-                            <div class="footer-itensSociais">
-                                <div class="iconContainer gmail-background">
-                                    <img class="iconesRedeSocial" src="./assets/icon/Gmail.png" alt="Ícone Link Gmail">
-                                </div>
-                                <span class="footer-texto">brazablogbr@gmail.com</span> 
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./assets/img/index/Grupos.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                      <a class="lateral-cardLink" href="#"> Saiba mais...</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
+
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./assets/img/index/Grupos.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                      <a class="lateral-cardLink" href="#"> Saiba mais...</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </main>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
+    <!-- Footer -->
+    <footer class="footer-principal row">
+      <div class="footer-left col-sm-6">
+        <ul class="footer__lista text-start">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+  
+          <li>
+            <a href="sobre.html">Quem Somos</a>
+          </li>
+  
+          <li>
+            <a href="formulario.html">Inscreva-se</a>
+          </li>
+  
+          <li>
+            <a href="copa2022.html">Copa 2022</a>
+          </li>
+  
+          <li>
+            <a href="Museu-Penta.html">Penta</a>
+          </li>
+  
+          <li>
+            <a href="idolos.html">Ídolos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-right col-sm-6">
+        <ul class="footer-redesSociais">
+          <li>
+            <a href="instagram.com/braza">
+              <div class="footer-itensSociais">
+                <div class="iconContainer instagram-background">
+                  <img
+                    class="iconesRedeSocial"
+                    src="./assets/icon/Instagram.png"
+                    alt="Ícone Link Instagram"
+                  />
+                </div>
+                <span class="footer-texto">@BrazaBlog_BR</span>
+              </div>
+            </a>
+          </li>
+  
+          <li>
+            <a href="facebook.com/BrazaBlogBR">
+              <div class="footer-itensSociais">
+                <div class="iconContainer facebook-background">
+                  <img
+                    class="iconesRedeSocial"
+                    src="./assets/icon/Facebook.png"
+                    alt="Ícone Link Facebook"
+                  />
+                </div>
+                <span class="footer-texto">Braza Blog BR</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="twitter.com/BRbrazaBlog">
+              <div class="footer-itensSociais">
+                <div class="iconContainer twitter-background">
+                  <img
+                    class="iconesRedeSocial"
+                    src="./assets/icon/Twitter.png"
+                    alt="Ícone Link Twitter"
+                  />
+                </div>
+                <span class="footer-texto">Braza BR Blog da Depressão</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:brazablogbr@gmail.com">
+              <div class="footer-itensSociais">
+                <div class="iconContainer gmail-background">
+                  <img
+                    class="iconesRedeSocial"
+                    src="./assets/icon/Gmail.png"
+                    alt="Ícone Link Gmail"
+                  />
+                </div>
+                <span class="footer-texto">brazablogbr@gmail.com</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
