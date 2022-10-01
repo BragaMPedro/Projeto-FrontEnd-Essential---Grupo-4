@@ -1,9 +1,5 @@
 body{
     margin-top: 0;
-    
-}
-header{
-
 }
 .container{
     background-color: #2c5e1a;
@@ -20,13 +16,9 @@ header{
 }
 .principal__titulo{
     border-bottom: 0.2em dotted #000045;
-    
 }
-.layout-cabecalho{
-    
-}
-
 .principal__subtitulo{
+    display: block;
     padding: 0;
     margin-top: 5px;
     font-family: 'Times New Roman', Times, serif;
@@ -34,12 +26,14 @@ header{
     color: #000045;
 }
 .texto-intro{
+    display: block;
     margin-top: 0;
     padding-left: 5px;
     font-size: 70%;
-    color: #000045;
+    color: black;
 }
 .layout-bloco{
+    display: block;
     background-color: #faf9bf;
     padding: 1.0em;
     align-items: center;
@@ -47,27 +41,27 @@ header{
     text-align: center;
 }
 .jogadores__titulo{
+    display: block;
     text-align: justify;
     font-size: 1.8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1B2AA1;
     margin-top: 1.0em;
     margin-bottom:1.0em ;
-    
 }
 .jogadores__texto{
+    display: block;
     color: #1B2AA1;
     margin-bottom: 0.6em;
     text-align: justify;
     font-size: 1.3em ;
 }
 .jogador{
-    
-    text-align: center!important;
+    align-items:center ;
+    text-align: center;
     border: 0.3em double #1B2AA1;
     padding: 1.0em;
-    
-
+    margin-bottom: 0.5em;
 }
 .jogador__caracteristica {
     margin-right: 2em;
@@ -75,7 +69,10 @@ header{
     align-items: center;
 }
 .jogador__imagem {
-    display: block;
+    border: 0.4em double #1B2AA1;
+    display:inline-block;
+    height: 15.0em;
+    width: 15.0em;
 }
 .nome{
     font-size: 1.25rem;
@@ -84,39 +81,70 @@ header{
 .layout-acervo{
     background-color: #ffe;
 }
-.img-selecao{
-    align-items: center;
-}
 .acervo{
+    align-items: center;
     background-color: #B2D2A4;
-    height: 2.5em;
+    height: 2.5rem;
     margin-bottom: 1em;
 }
-.img-acervo {
-    display:block;
-    border: 3px solid gold;
+.bloco-acervo{
+    display: inline-block;
+    height: 15.0em;
+    width: 20.0em;
     margin: 1em;
-    height: 11.7em;
-    width: 17.3em;
+}
+.acervo-imagem {
+    display: block;
+    align-items: center;
+    margin-right: 1.0em;
+    border: 0.2em solid #000045;
+    margin-left: 2.0em;
 }
 .img-descricao{
-    font-style: oblique;
+    color: #000000;
+    font-weight: 5.0em;
+    font-style:oblique;
     margin-top: 0;
     font-size: 0.7em;
     text-align: center;
+    margin-right: 1.0em;
 }
 .anuncios{
-    background-color: #FFFFFF;
-    padding: 1.0em;
+    border: 0.1em solid #000000;
     align-items:center;
     margin-right: 0em;
-    text-align: right;
-    margin-left: 0em;
+    text-align: justify;
+    
+    
 }
-.imagem-produto > .anuncios{
-    text-align: center;
-    margin-bottom: 0;
+.imagem-produto{
+    height: inherit;
+    width: 35.0em;
+    border: 0.1em solid blue;
+    margin-left: 0.5em;
+    margin-top:1.0em ;
+
 }
 .produto-descricao{
-    margin-top: 0.5em;
+    margin-top: 0.0em;
+    text-align: center;
+}
+.bloco-motivacao{
+    display:block;
+    height: 10.0em;
+    width: 7.0em;
+    align-items: center;
+}
+.bloco-motivacaoTexto{
+    height: 1.8em;
+    color: #2c5e1a;
+    display:block;
+    align-items: center;
+    text-align: center;
+    font-size: 3.0em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    border-bottom: 0.2em double yellow;
+    border-top: 0.2em double yellow;
+    margin-left: 1.0em;
 }
