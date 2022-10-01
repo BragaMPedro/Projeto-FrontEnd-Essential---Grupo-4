@@ -6,7 +6,6 @@
 
 .carrossel-imagem{
   filter: brightness(0.8) !important;
-  filter: contrast(1.1);
 }
 
 .ad-principal {

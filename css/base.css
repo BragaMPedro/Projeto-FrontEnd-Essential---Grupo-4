@@ -2,8 +2,8 @@
 
 :root{
     --cor-brazAzul: #0724e2ef;
-    --cor-brazAmarelo: #FDED00;
-    --cor-brazaVerde: #3DBA50;
+    --cor-brazAmarelo: #EAC100;
+    --cor-brazaVerde: #0B8457;
     --cor-background: #E9E9E9;
 }
 header{
@@ -25,9 +25,9 @@ a{
     --bs-link-hover-color: var(--cor-brazaVerde);
 }
 .nav-link:hover{
-    background-color: #3DBA50;
-    color: white;
-    border-left: 8px solid blue;
+    background-color: var(--cor-brazaVerde);
+    color: #fff;
+    border-left: 8px solid var(--cor-brazAmarelo);
     text-decoration: none;
     font: 18px;
     
